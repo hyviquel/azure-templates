@@ -267,11 +267,11 @@
                   "autoUpgradeMinorVersion": false,
                   "settings": {
                     "fileUris": [
-                      "[concat(parameters('_artifactsLocation'), '/', parameters('scriptFileName'), parameters('_artifactsLocationSasToken'))]"
+                      "[concat(parameters('_artifactsLocation'), '/', parameters('scriptFileName'))]"
                     ]
                   },
                   "protectedSettings": {
-                    "commandToExecute": "[concat('bash ', parameters('scriptFileName')]"
+                    "commandToExecute": "[concat('bash ', parameters('scriptFileName'))]"
                   }
                 }
               }
