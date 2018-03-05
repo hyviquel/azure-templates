@@ -1,4 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install libsdl2-dev
+sudo apt-get update
+sudo apt-get install -y libsdl2-dev
 
